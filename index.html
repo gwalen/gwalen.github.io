@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grzegorz Walen · Senior Software Engineer</title>
+  <meta name="description" content="Grzegorz Walen — Senior Software Engineer with 15+ years of experience. Solana & EVM smart contracts, distributed systems, Rust, TypeScript, Scala.">
+  <meta property="og:title" content="Grzegorz Walen · Senior Software Engineer">
+  <meta property="og:description" content="Blockchain & distributed systems engineer. Audited mainnet contracts on Solana and EVM.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#5a78b5">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23e59ac2' stroke='%232b2a4c' stroke-width='3'/><rect x='4' y='19' width='24' height='2' fill='%232b2a4c'/><rect x='5' y='23' width='22' height='2' fill='%232b2a4c'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Silkscreen:wght@400;700&family=Space+Mono:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-folder" viewBox="0 0 64 52">
+      <path d="M4 8 a4 4 0 0 1 4-4 h16 l6 6 h26 a4 4 0 0 1 4 4 v30 a4 4 0 0 1-4 4 H8 a4 4 0 0 1-4-4z" fill="#c983b4" stroke="#2b2a4c" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M4 18 h56 v26 a4 4 0 0 1-4 4 H8 a4 4 0 0 1-4-4z" fill="#e7b3d2" stroke="#2b2a4c" stroke-width="3" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-notes" viewBox="0 0 52 60">
+      <rect x="12" y="4" width="34" height="44" rx="2" fill="#d9d4e8" stroke="#2b2a4c" stroke-width="3"/>
+      <rect x="8" y="8" width="34" height="44" rx="2" fill="#ece8f5" stroke="#2b2a4c" stroke-width="3"/>
+      <rect x="4" y="12" width="34" height="44" rx="2" fill="#fff" stroke="#2b2a4c" stroke-width="3"/>
+      <path d="M10 22h22M10 29h22M10 36h22M10 43h14" stroke="#2b2a4c" stroke-width="2.5"/>
+    </symbol>
+  </svg>
+
+  <!-- ===== Hero: the desktop scene (static) ===== -->
+  <section class="hero hv" id="top">
+    <div class="scene" aria-hidden="true">
+      <div class="sky-grid"></div>
+      <div class="hv-sun"></div>
+      <div class="hv-moon"></div>
+      <svg class="birds" viewBox="0 0 40 20"><path d="M2 8 q4-4 7 0 q3-4 7 0 M22 14 q3-3 5 0 q2-3 5 0" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
+      <svg class="fireworks" viewBox="0 0 120 100">
+        <g stroke="#fff" stroke-width="1.8" stroke-linecap="round">
+          <g transform="translate(55 30)"><path d="M0-22V-8M0 8V22M-22 0H-8M8 0H22M-15-15l6 6M9 9l6 6M15-15l-6 6M-9 9l-6 6M-6-21l2 7M6 21l-2-7M21-6l-7 2M-21 6l7-2"/></g>
+          <g transform="translate(25 70)"><path d="M0-15V-5M0 5V15M-15 0H-5M5 0H15M-10-10l4 4M6 6l4 4M10-10l-4 4M-6 6l-4 4"/></g>
+          <g transform="translate(88 66)"><path d="M0-11V-4M0 4V11M-11 0H-4M4 0H11M-8-8l3 3M5 5l3 3M8-8l-3 3M-5 5l-3 3"/></g>
+        </g>
+      </svg>
+      <div class="eq" id="eq"></div>
+      <div class="floor"></div>
+    </div>
+    <nav class="icons icons--left" aria-label="Sections">
+      <a class="icon" href="#experience"><svg><use href="#i-folder"/></svg><span>EXPERIENCE</span></a>
+      <a class="icon" href="#skills"><svg><use href="#i-folder"/></svg><span>SKILLS</span></a>
+      <a class="icon" href="#oss"><svg><use href="#i-folder"/></svg><span>OPEN_SRC</span></a>
+    </nav>
+    <nav class="icons icons--right" aria-label="More sections">
+      <a class="icon" href="#about"><svg class="icon--notes"><use href="#i-notes"/></svg><span>ABOUT.TXT</span></a>
+      <a class="icon" href="#education"><svg class="icon--notes"><use href="#i-notes"/></svg><span>EDUCATION</span></a>
+      <a class="icon" href="#contact"><svg class="icon--notes"><use href="#i-notes"/></svg><span>CONTACT</span></a>
+    </nav>
+    <div class="hv-content">
+      <p class="hv-jp" aria-hidden="true">シニア・ソフトウェア・エンジニア</p>
+      <h1 class="hv-name"><span>Grzegorz</span> <span>Walen</span></h1>
+      <article class="win hv-win">
+        <div class="win__bar"><span>WELCOME</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+        <div class="win__body">
+          <p class="hv-role">ｓｅｎｉｏｒ　ｓｏｆｔｗａｒｅ　ｅｎｇｉｎｅｅｒ</p>
+          <p class="hv-tag">15+ years · Solana &amp; EVM · distributed systems</p>
+          <div class="hv-cta">
+            <a class="hv-btn" href="#experience">▶ View experience</a>
+            <a class="hv-btn hv-btn--alt" href="#contact">✉ Get in touch</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <main>
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <h2 class="section__title"><span>01</span> ABOUT</h2>
+      <article class="win reveal">
+        <div class="win__bar"><span>README</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+        <div class="win__body about__text">
+          <p>Senior Software Engineer with 15+ years of experience. My background includes enterprise financial applications, distributed systems, and blockchain development.</p>
+          <p>Specialized in building end-to-end blockchain products, with audited mainnet smart contracts on both Solana and EVM chains. Worked across both startups and large organizations, delivering production systems for DeFi, multi-chain protocols and fintech.</p>
+          <p>Uses AI tools heavily in daily development, which, combined with long experience in system design, makes delivery faster without cutting corners on quality.</p>
+          <p class="about__langs"><span>Languages</span> Polish · English · German</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+      <h2 class="section__title"><span>02</span> EXPERIENCE</h2>
+      <ol class="timeline">
+        <li class="reveal">
+          <article class="win win--pink">
+            <div class="win__bar"><span>SOCKET / BUNGEE</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+            <div class="win__body">
+              <header class="job__head"><h3>Senior Blockchain Engineer</h3><time>Apr 2025 — Present</time></header>
+              <p class="job__org">Socket / Bungee · Remote</p>
+              <h4>Socket — chain-abstraction protocol</h4>
+              <ul>
+                <li>Design and implement Socket's Solana protocol in Rust/Anchor for cross-chain execution with transaction cost accounting, attestation verification, replay protection, and EVM interoperability</li>
+                <li>Build EVM smart contracts for Socket protocol</li>
+                <li>Build event-driven backend system based on microservices architecture with RabbitMQ and MongoDB</li>
+                <li>Create event indexers</li>
+              </ul>
+              <h4>Bungee — multichain bridging</h4>
+              <ul>
+                <li>Design and build Solana gateway program and integration for a multichain bridge aggregator (Across, Mayan, CCTP, LayerZero OFT, Wormhole, Dflow, Jupiter)</li>
+                <li>Build backend APIs</li>
+              </ul>
+              <h4>Socket Deposit Addresses</h4>
+              <ul>
+                <li>Build backend platform connecting multiple chains (Solana, Tron, Stellar, Sui, Ethereum, Base, Arbitrum)</li>
+                <li>Apply microservices architecture patterns with MongoDB, RabbitMQ and Redis, deployed on AWS</li>
+              </ul>
+              <p class="chips"><span>Rust</span><span>TypeScript</span><span>Solidity</span><span>Anchor</span><span>LiteSVM</span><span>Surfpool</span><span>Axum</span><span>Tokio</span><span>web3.js</span><span>Foundry</span><span>Node.js</span><span>MongoDB</span><span>RabbitMQ</span><span>Redis</span><span>Docker</span><span>AWS</span></p>
+            </div>
+          </article>
+        </li>
+        <li class="reveal">
+          <article class="win win--cyan">
+            <div class="win__bar"><span>SYNO.FINANCE</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+            <div class="win__body">
+              <header class="job__head"><h3>Solana Tech Lead</h3><time>Mar 2024 — Apr 2025</time></header>
+              <p class="job__org">Syno.finance · Remote</p>
+              <h4>Cross-chain borrowing/lending platform for Solana ⇄ EVM</h4>
+              <ul>
+                <li>Build a cross-chain lending protocol using Wormhole and CCTP on Solana (Rust/Anchor)</li>
+                <li>Own protocol development end-to-end, coordinate BE and FE engineers on integration</li>
+                <li>Create EVM (Solidity) contracts for integration</li>
+                <li>Build SDK, event indexers</li>
+                <li>Build off-chain relayer backend for cross-chain interaction</li>
+              </ul>
+              <p class="chips"><span>Anchor</span><span>native Solana</span><span>Rust</span><span>Axum</span><span>Tokio</span><span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span><span>Docker</span><span>DigitalOcean</span></p>
+            </div>
+          </article>
+        </li>
+        <li class="reveal">
+          <article class="win win--purple">
+            <div class="win__bar"><span>SWISSBORG</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+            <div class="win__body">
+              <header class="job__head"><h3>Blockchain Engineer</h3><time>Jan 2022 — Feb 2024</time></header>
+              <p class="job__org">SwissBorg · Remote</p>
+              <h4>Solana</h4>
+              <ul>
+                <li>Protocol to trade on Solana DEXes integrated with an external off-chain order book</li>
+                <li>Protocol for managing concentrated liquidity positions using Orca CLMM</li>
+              </ul>
+              <h4>EVM</h4>
+              <ul>
+                <li>Yield farming dApp leveraging lending protocols with curated vaults</li>
+                <li>Yield farming dApp leveraging Stargate and GMX with long/short exposure</li>
+              </ul>
+              <p class="chips"><span>Anchor</span><span>Rust</span><span>Tokio</span><span>TypeScript</span><span>Foundry</span><span>Hardhat</span><span>Solidity</span><span>Node.js</span><span>MongoDB</span><span>AWS</span></p>
+            </div>
+          </article>
+        </li>
+        <li class="reveal">
+          <article class="win win--pink">
+            <div class="win__bar"><span>WHITE HAT GAMING</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+            <div class="win__body">
+              <header class="job__head"><h3>Senior Software Engineer</h3><time>May 2020 — Jan 2022</time></header>
+              <p class="job__org">White Hat Gaming · Remote</p>
+              <h4>Online gambling platform</h4>
+              <ul>
+                <li>Build data feed app handling thousands of bets per second in micro-service environment</li>
+                <li>Integrate with biggest US client</li>
+              </ul>
+              <p class="chips"><span>Scala</span><span>Akka</span><span>Rust</span><span>PostgreSQL</span><span>RabbitMQ</span><span>Docker</span><span>Kubernetes</span><span>AWS</span><span>GCP</span></p>
+            </div>
+          </article>
+        </li>
+        <li class="reveal">
+          <article class="win win--cyan">
+            <div class="win__bar"><span>WRITER</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+            <div class="win__body">
+              <header class="job__head"><h3>Senior Software Engineer</h3><time>Mar 2019 — Apr 2020</time></header>
+              <p class="job__org">Writer (formerly Qordoba) · Remote</p>
+              <h4>Content Intelligence Platform</h4>
+              <ul>
+                <li>Design and develop backend logic</li>
+                <li>Build MapReduce pipelines and data stream processors</li>
+              </ul>
+              <p class="chips"><span>Scala</span><span>Java</span><span>Akka</span><span>Slick</span><span>Cats</span><span>MySQL</span><span>BigTable</span><span>PubSub</span><span>Python</span><span>Kubernetes</span><span>GCP</span><span>Envoy</span></p>
+            </div>
+          </article>
+        </li>
+        <li class="reveal">
+          <article class="win win--purple">
+            <div class="win__bar"><span>MAM</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+            <div class="win__body">
+              <header class="job__head"><h3>Solution Architect</h3><time>Dec 2016 — Feb 2019</time></header>
+              <p class="job__org">MAM · Poland</p>
+              <h4>Cashback platform</h4>
+              <ul>
+                <li>Design and develop a microservice architecture handling receipt processing, cashback calculation, billing, and client account management</li>
+                <li>Provide technical leadership to a team of developers, ensuring consistency and correctness across all stages of implementation</li>
+              </ul>
+              <p class="chips"><span>Scala</span><span>Akka</span><span>Slick</span><span>Cats</span><span>PostgreSQL</span><span>Cassandra</span><span>Kafka</span><span>Spark</span><span>Kubernetes</span><span>AWS</span><span>GCP</span></p>
+            </div>
+          </article>
+        </li>
+        <li class="reveal">
+          <details class="win win--dim early" open>
+            <summary class="win__bar"><span>EARLIER CAREER — 2010–2016</span><em>click to expand</em></summary>
+            <div class="win__body">
+              <ul class="early__list">
+                <li><b>Senior Java Developer</b> · AsianLogic, Gibraltar <time>Dec 2015 — Dec 2016</time><br><small>Design and develop online gambling platform</small></li>
+                <li><b>Senior Java Developer</b> · Altkom Innovation, Poland <time>Aug 2014 — Dec 2015</time><br><small>Internet banking platform — integration and backend logic</small></li>
+                <li><b>Senior Java/Gosu Developer</b> · PZU, Poland <time>Mar 2012 — Aug 2014</time><br><small>Insurance system — backend and integration logic</small></li>
+                <li><b>Java Developer</b> · Qualent Software, Poland <time>Jul 2010 — Mar 2012</time></li>
+              </ul>
+            </div>
+          </details>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <h2 class="section__title"><span>03</span> SKILLS</h2>
+      <div class="skills">
+        <div class="cart reveal"><h3>Blockchain</h3><p class="chips"><span>Solana</span><span>Anchor</span><span>Rust</span><span>TypeScript</span><span>Surfpool</span><span>LiteSVM</span><span>Mollusk</span><span>Alloy</span><span>web3.js</span><span>EVM</span><span>Solidity</span><span>Foundry</span><span>Forge</span><span>Hardhat</span><span>Dune</span><span>TheGraph</span></p></div>
+        <div class="cart reveal"><h3>Languages</h3><p class="chips"><span>Rust</span><span>TypeScript</span><span>Scala</span><span>Java</span><span>SQL</span></p></div>
+        <div class="cart reveal"><h3>Frameworks</h3><p class="chips"><span>Tokio</span><span>Axum</span><span>Reqwest</span><span>Sqlx</span><span>Node.js</span><span>NestJS</span><span>Express</span><span>React</span><span>Akka</span><span>Cats</span></p></div>
+        <div class="cart reveal"><h3>Data &amp; messaging</h3><p class="chips"><span>PostgreSQL</span><span>MongoDB</span><span>Oracle</span><span>MySQL</span><span>Cassandra</span><span>BigTable</span><span>Kafka</span><span>RabbitMQ</span><span>PubSub</span></p></div>
+        <div class="cart reveal"><h3>Infra</h3><p class="chips"><span>Docker</span><span>Kubernetes</span><span>AWS</span><span>GCP</span><span>Linux</span><span>CI/CD</span></p></div>
+      </div>
+    </section>
+
+    <!-- ===== Open source ===== -->
+    <section class="section" id="oss">
+      <h2 class="section__title"><span>04</span> OPEN SOURCE</h2>
+      <p class="lead reveal">Issues and pull requests in the Solana tooling I use every day — <b>10 PRs</b> and <b>8 issues</b> across Anchor, Anza, Quasar, Surfpool and LiteSVM, plus SIMD design discussions. Full list on <a href="https://github.com/gwalen/os" target="_blank" rel="noopener">github.com/gwalen/os</a>.</p>
+
+      <!-- Own project -->
+      <article class="win win--cyan feature reveal">
+        <div class="win__bar"><span>MY PROJECT — ZK-SHIELDED-POOL</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+        <div class="win__body feature__body">
+          <div>
+            <h3 class="feature__title"><a href="https://github.com/gwalen/zk-shielded-pool" target="_blank" rel="noopener">ZK-shielded-pool ↗</a></h3>
+            <p>A Solana privacy pool that lets users <strong>deposit SOL and withdraw it anonymously</strong>, powered by zero-knowledge proofs. Each deposit can be split into up to three chunks sent to different addresses, so simple amount matching doesn't work even at low volume.</p>
+            <ul class="arrow">
+              <li><a href="https://github.com/gwalen/zk-shielded-pool-solana" target="_blank" rel="noopener">zk-shielded-pool-solana</a> — on-chain program: deposits, withdrawals, calls the verifier</li>
+              <li><a href="https://github.com/gwalen/zk-shielded-pool-circuit" target="_blank" rel="noopener">zk-shielded-pool-circuit</a> — Halo2 circuit and tests; source of the verifier and prover</li>
+              <li><a href="https://github.com/gwalen/zk-shielded-pool-client" target="_blank" rel="noopener">zk-shielded-pool-client</a> — Rust backend that sends transactions and builds proofs</li>
+            </ul>
+            <p class="chips"><span>Anchor v2</span><span>no_std Rust</span><span>Halo2</span><span>BN254</span><span>KZG</span><span>Poseidon</span><span>alt_bn128 syscalls</span></p>
+          </div>
+          <dl class="metrics">
+            <div><dt>On-chain verification</dt><dd>816,983 CU</dd></div>
+            <div><dt>Proof size</dt><dd>1,088 B</dd></div>
+            <div><dt>Public inputs</dt><dd>5 × 32 B</dd></div>
+          </dl>
+        </div>
+      </article>
+
+      <!-- Contributions -->
+      <h3 class="subhead reveal">Contributions</h3>
+      <div class="contribs">
+        <article class="win win--pink reveal">
+          <div class="win__bar"><span>ANCHOR V2</span><b class="count">6 PR · 2 ISSUE</b></div>
+          <ul class="prs win__body">
+            <li><a href="https://github.com/otter-sec/anchor/pull/5078" target="_blank" rel="noopener"><em class="pr">PR</em>Restore AnchorDeserialize/AnchorSerialize traits so wincode's SchemaRead stops leaking into user code</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/pull/5170" target="_blank" rel="noopener"><em class="pr">PR</em>Keep Pod wrapper types in IDL so declare_program! gets the right layout</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/pull/5176" target="_blank" rel="noopener"><em class="pr">PR</em>Support pausable mint initialization constraints</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/pull/5187" target="_blank" rel="noopener"><em class="pr">PR</em>Fix v2 projects from anchor init not building</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/pull/5179" target="_blank" rel="noopener"><em class="pr">PR</em>Docs: using Anchor v1 and v2 side by side</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/pull/5123" target="_blank" rel="noopener"><em class="pr">PR</em>Bump Agave to 4.3 and LiteSVM to 0.17</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/issues/5067" target="_blank" rel="noopener"><em class="is">ISSUE</em>Overprotective ConstraintDuplicateMutableAccount (2040)</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/issues/5077" target="_blank" rel="noopener"><em class="is">ISSUE</em>wincode's SchemaRead leaks into user code</a></li>
+          </ul>
+        </article>
+        <article class="win win--purple reveal">
+          <div class="win__bar"><span>QUASAR</span><b class="count">1 PR · 2 ISSUE</b></div>
+          <ul class="prs win__body">
+            <li><a href="https://github.com/blueshift-gg/quasar/pull/509" target="_blank" rel="noopener"><em class="pr">PR</em>feat(derive): accept [u8; N] as event fields</a></li>
+            <li><a href="https://github.com/blueshift-gg/quasar/issues/502" target="_blank" rel="noopener"><em class="is">ISSUE</em>#[event] does not accept array types [u8; N]</a></li>
+            <li><a href="https://github.com/blueshift-gg/quasar/issues/510" target="_blank" rel="noopener"><em class="is">ISSUE</em>#[event] fails to compile when the struct has padding</a></li>
+          </ul>
+        </article>
+        <article class="win win--cyan reveal">
+          <div class="win__bar"><span>ANZA · SOLANA-SDK</span><b class="count">1 PR · 1 ISSUE</b></div>
+          <ul class="prs win__body">
+            <li><a href="https://github.com/anza-xyz/solana-sdk/pull/857" target="_blank" rel="noopener"><em class="pr">PR</em>[poseidon] Use no-std when target_os = "solana" or target_arch = "bpf"</a></li>
+            <li><a href="https://github.com/anza-xyz/solana-sdk/issues/858" target="_blank" rel="noopener"><em class="is">ISSUE</em>[poseidon] Implicitly links std on the Solana target</a></li>
+          </ul>
+        </article>
+        <article class="win win--pink reveal">
+          <div class="win__bar"><span>ANCHOR V1</span><b class="count">1 PR · 1 ISSUE</b></div>
+          <ul class="prs win__body">
+            <li><a href="https://github.com/otter-sec/anchor/pull/5142" target="_blank" rel="noopener"><em class="pr">PR</em>CI: add anchor-client async test runs</a></li>
+            <li><a href="https://github.com/otter-sec/anchor/issues/4481" target="_blank" rel="noopener"><em class="is">ISSUE</em>Anchor deploy getting stuck in 1.0.x</a></li>
+          </ul>
+        </article>
+        <article class="win win--purple reveal">
+          <div class="win__bar"><span>SURFPOOL</span><b class="count">2 ISSUE</b></div>
+          <ul class="prs win__body">
+            <li><a href="https://github.com/solana-foundation/surfpool/issues/334" target="_blank" rel="noopener"><em class="is">ISSUE</em>Load a program binary to a given address without a keypair</a></li>
+            <li><a href="https://github.com/solana-foundation/surfpool/issues/250" target="_blank" rel="noopener"><em class="is">ISSUE</em>V0 transactions — unable to retrieve transaction details</a></li>
+          </ul>
+        </article>
+        <article class="win win--cyan reveal">
+          <div class="win__bar"><span>LITESVM</span><b class="count">1 PR</b></div>
+          <ul class="prs win__body">
+            <li><a href="https://github.com/LiteSVM/litesvm/pull/429" target="_blank" rel="noopener"><em class="pr">PR</em>Bump solana-address-lookup-table-interface to 3.2 for Agave 4.3 compatibility</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- SIMDs -->
+      <h3 class="subhead reveal">Solana SIMD design discussions</h3>
+      <div class="simds">
+        <a class="simd reveal" href="https://github.com/solana-foundation/solana-improvement-documents/pull/553" target="_blank" rel="noopener"><b>SIMD-0553</b><span>Resource and Inclusion Fee</span></a>
+        <a class="simd reveal" href="https://github.com/solana-foundation/solana-improvement-documents/pull/646" target="_blank" rel="noopener"><b>SIMD-0646</b><span>Disable legacy and v0 transaction formats</span></a>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section" id="education">
+      <h2 class="section__title"><span>05</span> EDUCATION</h2>
+      <article class="win win--purple degree reveal">
+        <div class="win__bar"><span>DIPLOMA</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+        <div class="win__body degree__body">
+          <div class="degree__seal" aria-hidden="true">MSc</div>
+          <div>
+            <h3>Master of Science (MSc)</h3>
+            <p class="degree__field">Electrical and Computer Engineering</p>
+            <p>Warsaw University of Technology, Warsaw</p>
+            <time>Jan 2006 — Mar 2011</time>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ===== Courses ===== -->
+    <section class="section" id="courses">
+      <h2 class="section__title"><span>06</span> COURSES + CERTS</h2>
+      <ul class="courses">
+        <li class="reveal"><b>ZK Engineering Course</b><span>1:1 with Adam Smolarek</span></li>
+        <li class="reveal"><b>Blockchain Course</b><span>by Adam Smolarek</span></li>
+        <li class="reveal"><b>Functional Programming Principles in Scala</b><span>Coursera</span></li>
+        <li class="reveal"><b>Principles of Reactive Programming</b><span>Coursera</span></li>
+        <li class="reveal cert"><b>Oracle Certified Professional, Java SE6 Programmer</b><span>Oracle · certification</span></li>
+      </ul>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+      <h2 class="section__title"><span>07</span> CONTACT</h2>
+      <article class="win win--cyan contact reveal">
+        <div class="win__bar"><span>LINKS.MAP</span><span class="ctls" aria-hidden="true"><i class="ctl ctl--min"></i><i class="ctl ctl--max"></i><i class="ctl ctl--x"></i></span></div>
+        <div class="win__body"><div class="screen screen--map">
+          <p class="kicker">SAY HI — LET'S BUILD SOMETHING</p>
+          <ul class="links">
+            <li><span>EMAIL</span><a href="mailto:grzegorz.walen@gmail.com">grzegorz.walen@gmail.com</a></li>
+            <li><span>GITHUB</span><a href="https://github.com/gwalen" target="_blank" rel="noopener">github.com/gwalen</a></li>
+            <li><span>LINKEDIN</span><a href="https://linkedin.com/in/grzegorz-walen" target="_blank" rel="noopener">linkedin.com/in/grzegorz-walen</a></li>
+            <li><span>X</span><a href="https://x.com/Gregory_The_Dev" target="_blank" rel="noopener">x.com/Gregory_The_Dev</a></li>
+          </ul>
+        </div></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Grzegorz Walen</p>
+  </footer>
+
+  <!-- ===== Taskbar = navigation ===== -->
+  <nav class="taskbar" aria-label="Sections">
+    <a class="tb-home" href="#top" aria-label="Back to top"><svg viewBox="0 0 20 20"><path d="M3 10 L10 3 L17 10 M5 9 V17 H15 V9" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg></a>
+    <div class="tb-tasks">
+      <a class="tb-task" href="#about">ABOUT</a>
+      <a class="tb-task" href="#experience">EXPERIENCE</a>
+      <a class="tb-task" href="#skills">SKILLS</a>
+      <a class="tb-task" href="#oss">OPEN SOURCE</a>
+      <a class="tb-task" href="#education">EDUCATION</a>
+      <a class="tb-task" href="#contact">CONTACT</a>
+    </div>
+    <time class="tb-clock" id="tbClock">--:--</time>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
